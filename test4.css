@@ -1,0 +1,151 @@
+body{
+		margin:0 auto;
+		width:100%;
+		height: 170vh;
+		background-color: black;
+	}
+	.overlay{
+		position: absolute;
+		top:0vh;
+		background-color: black;
+		opacity: 70%;
+		width: 100%;
+		height:170vh;
+	}
+	.headings{
+		position: absolute;
+		top:0vh;
+		width: 100%;
+	}
+	.headings ul{
+		display: flex;
+		list-style-type: none;
+	}
+	.headings ul li{
+		color: white;
+	}
+	.li3{
+		padding-left: 570px;
+		font-size: 15px;
+	}
+	.li1{
+		font-size: 10px;
+	}
+	.li4{
+		padding-left: 550px;
+		font-size:10px;
+	}
+	.headings ul li a{
+		color: white;
+	}
+	.bod{
+		background-image: url('GYM5.jpg');
+		background-size: cover;
+		width: 70%;
+		height:110vh;
+		margin-top: 7vh;
+	}
+	.bod .p1{
+		position: absolute;
+		top:35vh;
+		left:46%;
+		text-align: left;
+		font-family: helvetica;
+		font-size: 30px;
+		color: white;
+		width:600px;
+		line-height: 45px;
+	}
+	.flexbox{
+		position: absolute;
+		left: 46%;
+		margin-top: 85vh;
+	}
+	.row{
+		display: flex;
+	}
+	.col-2{
+		flex-basis: 60%;
+		min-width: 45%;
+		margin:10px 0px;
+		margin-right: 5px;
+	}
+	.col-2 h3{
+		font-size: 15px;
+		color:white;
+		font-weight: bold;
+	}
+	.col-2 p{
+		font-size: 11px;
+		color: white;
+		font-weight: lighter;
+		text-align: left;
+		line-height: 25px;
+	}
+	.line{
+		position: absolute;
+		top:75vh;
+		left: 46%;
+		width: 52%;
+		height:0.3%;
+		color: gray;
+		background-color: gray;
+	}
+	.line1{
+		position: absolute;
+		margin-top:115vh;
+		left: 46%;
+		width: 52%;
+		height:0.3%;
+		color: gray;
+		background-color: gray;
+	}
+	.row1{
+		position: absolute;
+		margin-top: 135vh;
+		left: 46%;
+		padding-right: 5px;
+	}
+	.row1 h3{
+		font-size: 15px;
+		color:white;
+		font-weight: bold;
+	}
+	.row1 p{
+		font-size: 11px;
+		color: white;
+		font-weight: lighter;
+		text-align: left;
+		line-height: 25px;
+	}
+	.ul1{
+		position: absolute;
+		margin-top:155vh;
+		left: 0%;
+		list-style-type: none;
+		display: flex;
+		-webkit-transform:rotate(-90deg);
+	}
+	.ul1 li{
+		font-size: 18px;
+		font-family: helvetica;
+		color: white;
+		padding:0px 5px;
+	}
+	.pros{
+		position: absolute;
+		margin-left: 0vh;
+	}
+	.seri{
+		position: absolute;
+		margin-left: 53vh;
+	}
+	.line3{
+		position: absolute;
+		margin-top:115vh;
+		left: 10px;
+		width: 4%;
+		height:0.3%;
+		background-color: gray;
+	}
+
